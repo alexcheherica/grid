@@ -1,3 +1,29 @@
 *{
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+section{
+    background-color: bisque;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 4fr 1fr;
+}
+
+header,footer{
+    background-color: aqua;
+    border:2px solid black;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+
+article{
+    background-color: aqua;
+    border: 2px solid brown;
 }
