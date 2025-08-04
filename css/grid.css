@@ -12,12 +12,15 @@ section{
     /* Estrutura de layout pelo Grid */
 
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Tamanho da 1º linha , Tamanho da 2° linha */
+    grid-template-rows: 1fr 2fr;
 
 }
 
 div{
     background-color: brown;
-    width: 200px;
     height: 200px;
-    margin: 10px;
+    border: 2px solid white;
+    color: white;
 }
